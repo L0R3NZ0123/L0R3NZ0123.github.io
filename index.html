@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lorenzo Lisanti - Portfolio</title>
+    <!-- Collegamento al foglio di stile CSS -->
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="iconaWEB.png">
+
+    <!-- Collegamento alle librerie Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+        <div class="container">
+            <a class="navbar-brand" href="#">Lorenzo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Chi sono</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Servizi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contatti</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#CV">Curriculum</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content - Sezione Home con immagine di sfondo -->
+    <section class="bgimage" id="home" style="background-image: url('sfondoIniziale.jpg');">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 hero-text">
+                    <h2 class="hero_title">Ciao, sono Lorenzo</h2>
+                    <p class="hero_desc">Sono uno studente alla IIS Einstein De-Lorenzo</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Sezione Chi sono -->
+    <section id="about">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center">Chi sono</h1>
+            <div class="row mt-4">
+                <!-- Colonna per l'immagine -->
+                <div class="col-lg-4">
+                    <img src="chiSono.jpg" class="img-fluid" alt="Foto di Lorenzo Lisanti">
+                </div>
+                <!-- Colonna per il testo -->
+                <div class="col-lg-8">
+                    <p>
+                        Ciao! Sono Lorenzo Lisanti, un ragazzo di 17 anni che vive a Potenza. Attualmente sono uno studente presso l'IIS Einstein De-Lorenzo, appassionato di informatica e sviluppo web. Adoro creare siti web e app per esplorare nuove tecnologie e soluzioni creative. Sono anche un appassionato di sport, in particolare pratico la boxe, che mi tiene in forma e mi piace praticare con gli amici.
+                    </p>
+                    <div class="row mt-3">
+                    </p>
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Nome: Lorenzo Lisanti</li>
+                                <li>Età: 17 anni</li>
+                                <li>Occupazione: Studente</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Località: Potenza</li>
+                                <li>Email: <a href="mailto:mail@gmail.com">lorenzolisanti0@gmail.com</a></li>
+                                <li>Telefono: <a href="tel:+39123456789">+39 3286395992</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <p>
+                            Sono appassionato di programmazione e mi piace sviluppare progetti creativi che possano avere un impatto positivo. Oltre agli studi, mi piace esplorare nuove tecnologie e partecipare a hackathon per mettermi alla prova.Oltre alla mia passione per l'informatica, ho una grande inclinazione per viaggiare e scoprire nuovi luoghi. Durante l'estate, mi piace esplorare destinazioni costiere, dove posso godere del mare e della sabbia. Ho avuto l'opportunità di visitare diverse località costiere e scoprire le loro culture e tradizioni. Queste esperienze mi hanno arricchito, insegnandomi l'importanza della diversità e aprendo la mia mente a nuove prospettive. Il mare rappresenta per me una fonte di ispirazione e tranquillità, ed è un elemento che amo incorporare nei miei viaggi estivi.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+   <!-- Sezione Servizi -->
+    <section id="services">
+        <div class="container">
+            <h1 class="text-center">Servizi</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class="fas servicesIcon fa-laptop-code"></i>
+                            <h4 class="card-title mt-3">Sviluppo Web</h4>
+                            <p class="card-text mt-3">Creo siti web personalizzati e ottimizzati, utilizzando le ultime tecnologie per garantire un'esperienza utente coinvolgente.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class="fas servicesIcon fa-paint-brush"></i>
+                            <h4 class="card-title mt-3">Design Web</h4>
+                            <p class="card-text mt-3">Realizzo design accattivanti e intuitivi per garantire un'interfaccia utente gradevole e funzionale.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class="fas servicesIcon fa-code"></i>
+                            <h4 class="card-title mt-3">Programmazione Java</h4>
+                            <p class="card-text mt-3">Sviluppo applicazioni e software utilizzando il linguaggio di programmazione Java per garantire soluzioni robuste e scalabili.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Sezione Portfolio -->
+<section id="portfolio">
+    <div class="container mt-3">
+        <h1 class="text-center">Portfolio</h1>
+        <div class="row">
+            <div class="col-lg-4 mt-4">
+                <div class="card">
+                    <img class="card-img-top" src="ristorante.png" alt="Sito web ristorante" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">Sito Web Ristorante</h4>
+                        <p class="card-text">Sito web creato per un ristorante locale, con menu interattivo e informazioni sulle prenotazioni.</p>
+                        <div class="text-center">
+                            <a href="https://l0r3nz0123.github.io/" class="btn btn-success">Link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mt-4">
+                <div class="card">
+                    <img class="card-img-top" src="Torre_Hanoi.png" alt="Sito web Torre di Hanoi" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">Sito Web Torre di Hanoi</h4>
+                        <p class="card-text">Sito web interattivo che spiega e permette di risolvere il puzzle della Torre di Hanoi.</p>
+                        <div class="text-center">
+                            <a href="#" class="btn btn-success">Link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mt-4">
+                <div class="card">
+                    <img class="card-img-top" src="unity.png" alt="Gioco Labirinto Unity" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">Gioco Labirinto Unity</h4>
+                        <p class="card-text">Gioco realizzato con Unity in cui bisogna navigare un labirinto e raggiungere l'uscita.</p>
+                        <div class="text-center">
+                            <a href="https://www.youtube.com/watch?v=3DeBfjsitcU" class="btn btn-success">Link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-lg-4 mt-4">
+                <div class="card">
+                    <img class="card-img-top" src="gioco.png" alt="Sito Web Gioco d'azzardo" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">Sito Web Gioco d'Azzardo</h4>
+                        <p class="card-text">Sito web dedicato ai giochi d'azzardo online con informazioni sui giochi e regolamenti.</p>
+                        <div class="text-center">
+                            <a href="#" class="btn btn-success">Link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- contact section-->
+    <section id="contact">
+        <div class="container mt-3 contactContent">
+            <h1 class="text-center">Contact Me</h1>
+
+            <div class="row mt-4">
+                <div class="col-lg-6">
+                <div style="overflow:hidden;resize:none;max-width:100%;width:500px;height:500px;">
+                    <div id="google-maps-display" style="height:100%; width:100%;max-width:100%;">
+                        <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Potenza,+PZ,+Italia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                        </iframe>
+                        </div><a class="embed-map-html" rel="nofollow" href="https://www.bootstrapskins.com/themes" id="authorize-map-data">premium bootstrap themes</a>
+                        <style>#google-maps-display .text-marker{}.map-generator{max-width: 100%; max-height: 100%; background: none;}
+                        </style>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <!-- form fields -->
+                    <form>
+                        <input type="text" class="form-control form-control-lg" placeholder="Name">
+                        <input type="email" class="form-control mt-3" placeholder="Email">
+                        <input type="text" class="form-control mt-3" placeholder="Subject">
+                        <div class="mb-3 mt-3">
+                            <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
+                        </div>
+                    </form>
+                    <button class="btn btn-success">Contattami</button>
+
+                    
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="CV" class="py-5">
+        <!-- Contenuto del Curriculum Vitae -->
+        <div class="container text-center">
+            <h2 class="display-4 mb-4">Scarica il mio Curriculum Vitae</h2>
+            <p class="lead mb-4">Clicca sul pulsante qui sotto per scaricare il mio CV e scoprire di più sulle mie esperienze e competenze.</p>
+            <a href="Versione0.1_lorenzoLisanti.pdf" download="Lorenzo_Lisanti_CV.pdf" class="btn btn-primary btn-lg">Scarica CV <i class="fas fa-download ms-2"></i></a>
+        </div>
+    </section>
+    
+    
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h3>Seguimi su:</h3>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/_.lorenzo.lisanti._?igsh=Ymd4NDdxczNreHBy&utm_source=qr" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://github.com/l0r3nz0123" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h3>Contatti</h3>
+                    <ul>
+                        <li>Email: <a href="mailto:mail@gmail.com">lorenzolisanti0@gmail.com</a></li>
+                        <li>Telefono: <a href="tel:+39123456789">+39 3286395992</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    
+
+    <!-- Collegamento alle librerie Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script src="Script.js"></script>
+
+
+</body>
+
+</html>

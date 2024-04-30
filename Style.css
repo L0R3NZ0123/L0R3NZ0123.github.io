@@ -1,0 +1,163 @@
+/* Reset di alcuni stili di default */
+body, html {
+    margin: 0; /* Azzeramento del margine */
+    padding: 0; /* Azzeramento del padding */
+    font-family: 'Arial', sans-serif; /* Famiglia di caratteri predefinita */
+    line-height: 1.6; /* Altezza della linea */
+    color: #333; /* Colore del testo */
+}
+
+/* Stile per la sezione "Home" con immagine di sfondo */
+.bgimage {
+    background-image: url('sfondo_iniziale.jpg'); /* Immagine di sfondo */
+    background-size: contain; /* Dimensione dell'immagine di sfondo */
+    background-repeat: no-repeat; /* Non ripetere l'immagine di sfondo */
+    background-position: center; /* Posizione dell'immagine di sfondo */
+    color: #fff; /* Colore del testo */
+    text-align: center; /* Allineamento del testo al centro */
+    padding: 200px 0; /* Spaziatura interna (padding) sopra/sotto */
+}
+
+/* Stile per la sezione "Home" */
+#home {
+    padding-top: 200px; /* Spaziatura superiore */
+    padding-bottom: 200px; /* Spaziatura inferiore */
+    height: 800px; /* Altezza della sezione */
+    background-color: #f8f9fa; /* Colore di sfondo */
+}
+
+.hero-text {
+    text-align: center; /* Allineamento del testo al centro */
+    padding-top: 80px; /* Spaziatura interna (padding) sopra */
+}
+
+.hero_title {
+    font-size: 70px; /* Dimensione del titolo */
+    font-weight: bold; /* Grassetto */
+    color: #333; /* Colore del testo */
+}
+
+.hero_desc {
+    font-size: 28px; /* Dimensione della descrizione */
+    color: white; /* Colore del testo */
+}
+
+/* Navbar */
+.navbar {
+    background-color: #333; /* Colore di sfondo della barra di navigazione */
+}
+
+.navbar-brand, .nav-link {
+    color: #fff; /* Colore del testo per il marchio e i link di navigazione */
+    font-weight: bold; /* Grassetto */
+    font-size: 1.2rem; /* Dimensione del carattere */
+}
+
+.nav-link:hover {
+    color: #ffcc00; /* Cambia colore al passaggio del mouse sui link */
+}
+
+/* Sezione Home con immagine di sfondo */
+.bgimage {
+    background-image: url('images/bg.jpg'); /* Immagine di sfondo */
+    background-size: cover; /* Copertura completa dell'immagine di sfondo */
+    color: #fff; /* Colore del testo */
+    text-align: center; /* Allineamento del testo al centro */
+    padding: 100px 0; /* Spaziatura interna (padding) sopra/sotto */
+}
+
+.hero_title {
+    font-size: 3rem; /* Dimensione del titolo */
+    margin-bottom: 20px; /* Margine inferiore */
+}
+
+.hero_desc {
+    font-size: 1.5rem; /* Dimensione della descrizione */
+}
+
+/* Sezioni principali */
+section {
+    padding: 80px 0; /* Spaziatura interna (padding) sopra/sotto */
+}
+
+.section-title {
+    text-align: center; /* Allineamento del testo al centro */
+    margin-bottom: 50px; /* Margine inferiore */
+    font-size: 2.5rem; /* Dimensione del titolo */
+    color: #333; /* Colore del testo */
+}
+
+/* Card del Portfolio */
+.card {
+    border: none; /* Nessun bordo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombra */
+    transition: transform 0.3s ease; /* Animazione di trasformazione */
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Effetto di sollevamento al passaggio del mouse */
+}
+
+.card-img-top {
+    height: 200px; /* Altezza dell'immagine */
+    object-fit: cover; /* Scalatura proporzionale dell'immagine */
+}
+
+.card-title {
+    font-weight: bold; /* Grassetto */
+    font-size: 1.5rem; /* Dimensione del titolo */
+    margin-top: 15px; /* Margine superiore */
+}
+
+.card-text {
+    color: #666; /* Colore del testo */
+}
+
+/* Footer */
+#footer {
+    background-color: #333; /* Colore di sfondo */
+    color: #fff; /* Colore del testo */
+    text-align: center; /* Allineamento del testo al centro */
+    padding: 30px 0; /* Spaziatura interna (padding) sopra/sotto */
+}
+
+.social-icons a {
+    color: #fff; /* Colore del testo */
+    font-size: 1.5rem; /* Dimensione delle icone social */
+    margin: 0 10px; /* Margine esterno */
+}
+
+.social-icons a:hover {
+    color: #ffcc00; /* Cambia colore al passaggio del mouse */
+}
+
+/* Pulsante */
+.btn-success {
+    background-color: #28a745; /* Colore di sfondo del pulsante */
+    border-color: #28a745; /* Colore del bordo del pulsante */
+    color: #fff; /* Colore del testo */
+}
+
+.btn-success:hover {
+    background-color: #218838; /* Colore di sfondo del pulsante al passaggio del mouse */
+    border-color: #1e7e34; /* Colore del bordo del pulsante al passaggio del mouse */
+}
+
+/* Media Query per responsive design */
+@media (max-width: 768px) {
+    .hero_title {
+        font-size: 2.5rem; /* Dimensione del titolo */
+    }
+
+    .hero_desc {
+        font-size: 1.2rem; /* Dimensione della descrizione */
+    }
+
+    .section-title {
+        font-size: 2rem; /* Dimensione del titolo della sezione */
+    }
+
+    .card {
+        margin-bottom: 30px; /* Margine inferiore */
+    }
+}
